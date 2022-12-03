@@ -18,7 +18,7 @@ function App() {
 
   const handleClick = (ind) => {
     const temp = [...cart]
-    temp[ind]++
+    temp[ind] = cart[ind] + 1;
     setCart(temp)
   }
 
